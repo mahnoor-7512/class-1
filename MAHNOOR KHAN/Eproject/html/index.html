@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#"><span class="text-danger "><strong>SHALE PIZZA</strong></span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#gallery"><span
+                                class="text-danger">Home</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="text-danger">Menu</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#pizza">Pizza</a></li>
+                            <li><a class="dropdown-item" href="#Garlic Breads">Garlic Breads</a></li>
+                            <li><a class="dropdown-item" href="#Pizza Sandwiches">Pizza Sandwiches</a></li>
+                            <li><a class="dropdown-item" href="#Desserts">Desserts</a></li>
+                            <li><a class="dropdown-item" href="#Beverages">Beverages</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html"><span class="text-danger">About
+                                us
+                            </span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/html/contact us.html"><span
+                                class="text-danger">Contact
+                                us
+                            </span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/html/feedback.html"><span
+                                class="text-danger">Feedback</span></a>
+                    </li>
+                </ul>
+                <a class="nav-link text-danger" href="/html/signup.html"><i class="fa-solid fa-user"></i></a>
+                <a class="nav-link text-danger" href="/html/cart1.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- slider -->
+    <div class="conatiner mt-3">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/SLIDER 1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/SLIDER 2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/SLIDER 3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- gallery -->
+    <div class="container mt-3">
+        <section id="gallery">
+            <h1 class="text-center">GALLERY</h1>
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12 mt-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 1.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12 mt-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 2.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12 mt-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 3.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12 mt-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 4.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 5.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 6.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 7.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 8.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 9.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 10.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 11.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 12.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 20.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12 ">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 21.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 22.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 23.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 24.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 25.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 26.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 27.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 28.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 29.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 30.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 31.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 32.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 36.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 34.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="/images/img 35.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- pizza section-->
+    <section id="pizza" class="container mt-5">
+        <h1 class="text-center">PIZZA</h1>
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Hawaiin Pizza</h3>
+                        <p class="card-text">It's salty,cheesy, and undeniably delicious!</p>
+                        <a href="/html/cart1.html" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Pepperani Pizza</h3>
+                        <p class="card-text">It's spicy,smoky and savory flavors.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Extra Cheesy Pizza</h3>
+                        <p class="card-text">Super cheesy,delicious taste in every bite.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Margherita Pizza</h3>
+                        <p class="card-text">A classic pizza with a perfect balance of fresh tomatoes, mozzarella, and
+                            basil.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Cheesy Tikka Pizza</h3>
+                        <p class="card-text">A delicious blend of cheesy goodness with spicy tikka flavors for an
+                            irresistible bite.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Chicken Tikka Pizza</h3>
+                        <p class="card-text">A flavorful pizza topped with tender chicken tikka, spicy sauce, and melted
+                            cheese.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Garlic Bread section -->
+    <section id="Garlic Breads" class="container mt-5">
+        <h1 class="text-center">GARLIC BREADS</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Classic Garlic Butter</h3>
+                        <p class="card-text">Golden and crispy with melted butter and fresh garlic pieces</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Texas Toast Garlic Breads</h3>
+                        <p class="card-text">
+                            Texas Toast Garlic Bread is a thick, buttery slice of bread, toasted with a rich garlic
+                            butter spread.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Herb Garlic Bread</h3>
+                        <p class="card-text">Infused with rosemary, thyme, and parsley, giving a fresh, aromatic flavor.
+                        </p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Pull-Apart Garlic Bread</h3>
+                        <p class="card-text">Pull-apart garlic bread is a savory, buttery, cheesy bread and irresistibly
+                            delicious.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Cheesy Garlic Bread</h3>
+                        <p class="card-text">Cheesy garlic bread is a warm, crispy bread topped with melted cheese with
+                            rich garlic flavor.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Stuffed Cheese Garlic Bread</h3>
+                        <p class="card-text">Stuffed cheese garlic bread is a fluffy bread filled with melted cheese and
+                            flavorful garlic butter.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pizza Sandwiches section-->
+    <section id="Pizza Sandwiches" class="container mt-5">
+        <h1 class="text-center">Pizza Sandwiches</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Peperoni Sandwich</h3>
+                        <p class="card-text">
+                            A pepperoni sandwich is a delicious combination of spicy, savory pepperoni slices layered
+                            between fresh bread, often with cheese and condiments.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Puff Sandwich</h3>
+                        <p class="card-text">
+                            A puff sandwich is a light, flaky pastry filled with savory ingredients like cheese,
+                            vegetables, or meats.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Bacon Sandwich</h3>
+                        <p class="card-text">A bacon sandwich is a simple, savory combination of crispy bacon nestled
+                            between slices of bread.
+                        </p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Mince Sandwich</h3>
+                        <p class="card-text">
+                            A mince sandwich is a flavorful dish made with seasoned ground meat served between slices of
+                            bread.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Cheese Sandwich</h3>
+                        <p class="card-text">A cheese sandwich is a simple, comforting snack made with slices of cheese
+                            between two pieces of bread.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Chicken Crunch Sandwich</h3>
+                        <p class="card-text">A chicken crunch sandwich is a crispy, flavorful sandwich filled with
+                            battered or fried chicken, often paired with lettuce and sauce.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- desserts section-->
+    <section id="Desserts" class="container mt-5">
+        <h1 class="text-center">Desserts</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Ice-cream</h3>
+                        <p class="card-text">
+                            A creamy scoop of vanilla, strawberry, and chocolate ice cream in a perfect swirl of flavors
+                        </p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Chocolate Cupcake</h3>
+                        <p class="card-text">
+                            A rich, moist chocolate cupcake topped with decadent frosting and a sprinkle of sweetness..
+                        </p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Herb Garlic Bread</h3>
+                        <p class="card-text">Infused with rosemary, thyme, and parsley, giving a fresh, aromatic flavor.
+                        </p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Donuts</h3>
+                        <p class="card-text">Freshly baked donuts, soft and fluffy, glazed with sweetness in every bite.
+                        </p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 23.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Strawberry Cup Ice-cream</h3>
+                        <p class="card-text">A scoop of creamy strawberry ice cream,bursting with fruity sweetness in
+                            every bite.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 24.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Special Jalebi</h3>
+                        <p class="card-text">
+                            A crispy, golden spiral of special jalebi, soaked in sugar syrup for a perfect sweet
+                            indulgence.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Beverages-->
+    <section id="Beverages" class="container mt-5">
+        <h1 class="text-center">Beverages</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 25.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Fruitos Smoothie</h3>
+                        <p class="card-text">A fruity smoothie is a refreshing blend of fresh fruits and creamy
+                            ingredients.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 26.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Fizzy Drink</h3>
+                        <p class="card-text">
+                            A fizzy drink is a carbonated beverage that provides a refreshing, bubbly experience.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 27.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Cranberry Splash</h3>
+                        <p class="card-text">
+                            Cranberry Splash is a refreshing, tangy beverage made with cranberry flavor and a hint of
+                            fizz.
+                        </p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 28.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Mango Drink</h3>
+                        <p class="card-text">
+                            A mango drink is a sweet and tropical beverage made with fresh mangoes or mango flavor.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 29.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Raspberry Drink</h3>
+                        <p class="card-text">A raspberry drink is a fruity beverage made with the tangy and sweet flavor
+                            of raspberries.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-sm-12 col-md-4 col-lg-4 col-12 mt-4 ">
+                <div class="card">
+                    <img src="/images/img 30.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">Lemonade</h3>
+                        <p class="card-text">
+                            Lemonade is a refreshing drink made with freshly squeezed lemons, water, and sugar.</p>
+                        <a href="" class="btn btn-danger">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer-->
+    <footer class="footer mt-3">
+        <div class="footer container">
+            <div class="row">
+                <div class="footer-col">
+                    <strong>
+                        <h4>Company</h4>
+                    </strong>
+                    <ul>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">our services</a></li>
+                        <li><a href="">privacy policy</a></li>
+                        <li><a href="">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <strong>
+                        <h4>Get help</h4>
+                    </strong>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">shipping</a></li>
+                        <li><a href="">order status</a></li>
+                        <li><a href="">returns</a></li>
+                        <li><a href="">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <strong>
+                        <h4>Menu</h4>
+                    </strong>
+                    <ul>
+                        <li><a href="">pizza</a></li>
+                        <li><a href="">garlic breads</a></li>
+                        <li><a href="">pizza sandwiches</a></li>
+                        <li><a href="">desserts</a></li>
+                        <li><a href="">beverages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <strong>
+                        <h4>Follow us</h4>
+                    </strong>
+                    <div class="sociallinks">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <p class="text-center text-light">Copyright &copy;2024;</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
